@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-color: #e8f1f2;
+}
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+.field_style {
+  margin: 10px 0 20px 0;
+  height: 20px;
+  padding: 10px;
+  width: 89%;
+  border-radius: 5px;
+  border: 0;
+}
+
+.space_under {
+	padding-bottom: 20px;
+}
+.pill-button {
+  background-color: #ffee67;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: none;
+  font-family: "Lato", sans-serif;
+  font-style: bold;
+  font-size: 20px;
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.1s; /* Smooth transition for hover and press */
+}
+/* Hover state */
+.pill-button:hover {
+  background-color: #2980b9; /* Darker blue background */
+}
+/* Pressed state */
+.pill-button:active {
+  background-color: #1f618d; /* Even darker blue background */
+  transform: scale(0.95); /* Slightly reduce size */
+}

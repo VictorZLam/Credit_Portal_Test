@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en-AU" dir="ltr">
+<head>
+<title>TRM Credit Portal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width" initial-scale="1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<style>
+.conditional-fields {
+    display: none;
+}
+</style>
+<link href="20240902_1136_CSS_test.css" rel="stylesheet" type="text/css">
+<!--<link href="https://www.booktherocksmarket.com/filehandler.ashx?id=9f09893f-99a5-4297-8ad2-33a63eea5a1b" rel="stylesheet" type="text/css">-->
+</head>
+<body>
+<header style="background-color:#ffee67; padding: 5px 10px;">
+  <h1 class="libre-baskerville-bold" style="text-align: center">The Rocks Market Credit Application</h1>
+  <p class="lato" style="text-align: center">Please note that all COVID credit must have your orginal positive results test and your 7 days negative test results</p>
+</header>
+<br>
+<form class="lato-bold ">
+  <label for name="Credit_type">What type of credit are you applying for?</label>
+  <div class="lato-regular space_under"><br>
+  <input type="radio" id="PCOVID-Credit" name="Credit_type" class="" required>
+  <label for="PCOVID-Credit">Post COVID Credit</label>
+  <br>
+  <input type="radio" id="DocCert-Credit" name="Credit_type" class="">
+  <label for="PCOVID-Credit">Absence with doctor certificate</label>
+  <br>
+  <input type="radio" id="Preapprove-Credit" name="Credit_type" class="">
+  <label for="PCOVID-Credit">Other pre-approved</label>
+  <br>
+  <input type="radio" id="Vouchers-Credit" name="Credit_type" class="">
+  <label for="PCOVID-Credit">Vouchers</label>
+  <br>
+</div>
+</form>
+<br>
+<form class="lato-bold" >
+
+  <label for="tradename">Trading Name</label><br>
+  <input type="text" id="tradename" class="field_style space_under" placeholder="" required>
+  <br>
+  <label for="license_name">Name on license agreement</label><br>
+  <input type="text" id="License_name" class="field_style space_under" placeholder="" required>
+  <br>
+  <label  for="Email">Email</label><br>
+  <input type="email" id="Email" class="field_style space_under" placeholder="john.doe@example.com" required>
+  <br>
+  <p>Please note we require the transaction ID and the corresponding Rocks Market Number <strong>(RM)</strong></p>
+  <img src="https://www.cognitoforms.com/file/L9rMMpi2IBBCOVVFD24qt43P4X-X-eOdvWpwqYMx-tU8B0G5_D4DXz63z9P45o3x?id=F-4yirlwCcC24AzSH34WRKpk&name=Screenshot%202024-08-29%20092225.png&ct=image%2Fpng&size=71259" alt="" width="500px" ><br><br>
+  <label for="Reason for this application">Description</label>
+  <br>
+  <textarea type="textarea" id="Description" class="field_style" required></textarea>
+  <br>
+  <label>Weekend you could not attend</label><br>
+  <input type="date" id="Weekend" class="field_style" value="https://">
+  <br>
+  <label>Booking System Week Number<br>
+    <input type="text" id="WeekN" class="field_style" placeholder="1-52">
+  </label>
+  <br>
+  <label>The invoice number for this weekend<br> </label>
+  <input type="text" id="RM-number" class="field_style" placeholder="RM12345">
+  <br>
+  <label>Amount <br></label>
+  <input type="number" id="Amount" class="field_style" placeholder="$320">
+  <br>
+  <label>File upload<br></label>
+  <input type="file" id="attachements" class="field_style" >
+  <br>
+  <button class="pill-button">Submit</button>
+</form>
+<br>
+<div> 
+  <!--	This area is for conditional logic on how we hose different form fields depending what form radio button they select-->   
+</div>
+<footer>Content for New footer Tag Goes Here</footer>
+</body>
+</html>
